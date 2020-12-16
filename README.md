@@ -4,21 +4,10 @@ This is an updated version of [Forge4Luyten](https://github.com/KevinPriv/Luyten
 
 You can download compiled versions of Forge4Luyten at the [releases page](https://github.com/xcfrg/Luyten4Forge).
 
-##Instructions for use:
+## Instructions for use:
 - Select the mapping that your minecraft mod uses in the mappings tab.
 - Drag and drop the mod, and it will decompile.
 - Use File > Save All to save the decompiled mod to your computer.
-
-##Credits
-Procyon
-Copyright (c) 2015, Mike Strobel
-https://github.com/mstrobel/procyon
-Licenced under the [apache license](https://github.com/mstrobel/procyon/blob/develop/License.txt).
-
-RSyntaxTextArea
-Copyright (c) 2019, Robert Futrell
-https://github.com/bobbylight/RSyntaxTextArea
-Licenced under a [bsd 3-clause license](https://github.com/bobbylight/RSyntaxTextArea/blob/master/RSyntaxTextArea/src/main/resources/META-INF/LICENSE).
 
 <details>
 <summary>Forge4Luyten README</summary>
