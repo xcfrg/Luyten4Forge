@@ -1,0 +1,43 @@
+plugins {
+    id "com.github.johnrengelman.shadow" version "6.0.0"
+}
+
+group= 'com.kbrewster'
+version= "1.4.0"
+
+apply plugin: 'idea'
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+tasks.jar {
+    manifest.attributes(
+            "Main-Class": "us.deathmarine.luyten.Luyten"
+    )
+    enabled = false
+    dependsOn shadowJar
+}
+
+jar {
+    manifest {
+            attributes(
+                'Implementation-Title': 'Luyten4Forge',
+                'Implementation-Version': archiveVersion,
+                'Main-Class': 'us.deathmarine.luyten.Luyten'
+        )
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation group: 'com.apple', name: 'AppleJavaExtensions', version: '1.4'
+    implementation group: 'org.bitbucket.mstrobel', name: 'procyon-core', version: '0.5.36'
+    implementation group: 'org.bitbucket.mstrobel', name: 'procyon-expressions', version: '0.5.36'
+    implementation group: 'org.bitbucket.mstrobel', name: 'procyon-compilertools', version: '0.5.36'
+    implementation group: 'org.bitbucket.mstrobel', name: 'procyon-reflection', version: '0.5.36'
+    implementation group: 'com.fifesoft', name: 'rsyntaxtextarea', version: '2.6.1'
+}
