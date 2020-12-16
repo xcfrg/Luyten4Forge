@@ -4,12 +4,12 @@ This is an updated version of [Forge4Luyten](https://github.com/KevinPriv/Luyten
 
 You can download compiled versions of Forge4Luyten at the [releases page](https://github.com/xcfrg/Luyten4Forge).
 
-###Instructions for use:
+##Instructions for use:
 - Select the mapping that your minecraft mod uses in the mappings tab.
 - Drag and drop the mod, and it will decompile.
 - Use File > Save All to save the decompiled mod to your computer.
 
-###Credits
+##Credits
 Procyon
 Copyright (c) 2015, Mike Strobel
 https://github.com/mstrobel/procyon
