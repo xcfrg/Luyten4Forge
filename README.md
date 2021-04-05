@@ -1,5 +1,6 @@
 Luyten4Forge 
 ======
+ARCHIVED: Use recaf lol
 This is an updated version of [Forge4Luyten](https://github.com/KevinPriv/Luyten4Forge) that can decompile any forge minecraft mod that that uses stable mcp mappings.
 
 You can download compiled versions of Forge4Luyten at the [releases page](https://github.com/xcfrg/Luyten4Forge).
